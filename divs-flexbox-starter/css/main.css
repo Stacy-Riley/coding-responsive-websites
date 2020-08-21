@@ -12,7 +12,7 @@
 
 html {
     color: #222;
-    font-size: 1em;
+    font-size: 16px;
     line-height: 1.4;
 }
 
@@ -104,8 +104,10 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 16px;
   height: 100%;
+  background-color: black;
+  color: white;
 }
 
 .wrapper {
@@ -113,19 +115,26 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  flex-flow: row wrap;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1.4rem;
+  background-color: black;
+  padding: 0 15px;
+  font-weight: normal;
+  height: 250px;
   display: flex;
   width: 30%;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.div-1, .div-2 {
+  border-right: .1px solid gray;
 }
 
 
