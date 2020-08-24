@@ -137,8 +137,20 @@ body {
   border-right: .1px solid gray;
 }
 
+main {
+  height: 250px;
+  width: 100%;
+  font-size: 38px;
 
+}
 
+header, footer {
+  height: 80px;
+  width: 100%;
+}
+header {
+  font-size: 60px;
+}
 
 /* ==========================================================================
    Helper classes
